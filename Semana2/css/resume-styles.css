@@ -1,5 +1,5 @@
 
-/* Ajustes de otras hojas de estilo */
+/* Header*/
 .header {
     padding: 4rem 0 0 0;
 }
@@ -84,3 +84,63 @@
     margin-left: 2.8rem;
 }
 
+
+@media (max-width:420px) {
+    /* General */
+    .header {
+        padding: 3rem 1rem 0rem 1rem;
+    }
+
+    .container-nav__items {
+        gap: 3rem;
+    }
+
+    .container-nav {
+        margin-bottom: 5rem;
+    }
+
+    /* CV */
+    .container-cv {
+        gap: 5rem;
+    }
+    
+    .cv__article {
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+    }
+    
+    .cv__article--separator {
+        max-width: 100%;
+        padding-top: .5rem ;
+        padding-bottom: 1rem;
+        border-top: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .border-none {
+        border-bottom: none;
+    }
+    .cv__p {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+    
+    .margin,
+    .margin-2,
+    .margin-3{
+        margin-left: 0;
+    }
+    
+    .margin-3 {
+        border-bottom: none;
+    }
+    .footer {
+        margin-top: 5rem;
+    }
+}

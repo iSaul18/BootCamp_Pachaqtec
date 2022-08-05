@@ -1,0 +1,9 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a {background:#6592CF;width:300px;height:150px;padding:80px 50px;}.b{}

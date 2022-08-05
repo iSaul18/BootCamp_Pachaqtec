@@ -1,5 +1,5 @@
 
-/* Header (INDEX)*/
+/* Header*/
 .header {
     padding: 4rem 0 2rem 0;
 }
@@ -56,4 +56,68 @@
 /* Footer */
 .footer {
     margin-top: 13rem;
+}
+
+/* Movil */
+@media (max-width:420px) {
+    /* General */
+    .header {
+        padding: 3rem 1rem 0rem 1rem;
+    }
+
+    .container-nav__items {
+        gap: 3rem;
+    }
+
+    /* EStilos */
+    .header-information__h1 {
+        width: 90vw;
+        text-align: center;
+        margin: 0 0 32rem 0;
+    }
+
+    .main {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 5rem;
+        padding: 0 0 0 0;
+    }
+    
+    
+    .about-container__p {
+        width: 90vw;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        margin: 2rem 0 0 0;
+    }
+
+    .about-container__img1 {
+        width: 35rem;
+        position: absolute;
+        left: 7rem;
+        top: -88rem;
+    }
+    
+    .about-container__img2 {
+        width: 35rem;
+        position: absolute;
+        left: 10rem;
+        top: -90rem;
+    }
+    
+    .about-container__img3 {
+        width: 35rem;
+        position: absolute;
+        left: 13rem;
+        top: -92rem;
+    }
+    
+    /* Footer */
+
+    .footer {
+        margin-top: 0rem;
+    }
+
 }
